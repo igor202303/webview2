@@ -2,8 +2,11 @@
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:wv2="clr-namespace:Microsoft.Web.WebView2.Wpf;assembly=Microsoft.Web.WebView2.Wpf"
-        Title="WebView2App" Height="450" Width="800">
+        Title="WebView2App" Height="450" Width="800"
+        Background="#667eea">
     <Grid>
-        <wv2:WebView2 x:Name="webView" />
+        <wv2:WebView2 x:Name="webView"
+                      DefaultBackgroundColor="Transparent"
+                      Opacity="0" />
     </Grid>
 </Window>
